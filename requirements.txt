@@ -1,2 +1,3 @@
-# Current release checked on 2026-09-15. The implementation also supports 1.57+.
-playwright==1.62.0
+# Keep the installer's supported range consistent with pyproject.toml.
+# pip selects the newest compatible release available from the configured index.
+playwright>=1.57.0,<2.0
