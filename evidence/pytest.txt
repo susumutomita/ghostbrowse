@@ -1,0 +1,7 @@
+..s.ss...s..............................................                 [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_browser.py:44: Network disabled by this environment's Chromium policy
+SKIPPED [1] tests/test_browser.py:77: Network disabled by this environment's Chromium policy
+SKIPPED [1] tests/test_browser.py:97: Network disabled by this environment's Chromium policy
+SKIPPED [1] tests/test_browser.py:139: Network disabled by this environment's Chromium policy
+52 passed, 4 skipped in 16.08s

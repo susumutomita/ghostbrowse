@@ -1,0 +1,27 @@
+{
+  "ready": true,
+  "count": 1,
+  "entry": "日本語 inputz",
+  "keys": [
+    "z"
+  ],
+  "viewport": [
+    720,
+    396
+  ],
+  "exit_code": 0,
+  "terminal_attributes_restored": true,
+  "frames_decoded": 9,
+  "frame_sizes": [
+    [
+      720,
+      396
+    ],
+    [
+      900,
+      540
+    ]
+  ],
+  "pixel_mouse": false,
+  "actual_ghostty": false
+}

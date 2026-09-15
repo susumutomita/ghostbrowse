@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghostbrowse"
+version = "0.1.0"
+description = "An interactive Chromium browser inside a Ghostty terminal pane"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+dependencies = ["playwright>=1.57.0,<2.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "pytest-asyncio>=0.24,<2"]
+
+[project.scripts]
+ghostbrowse = "ghostbrowse.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ghostbrowse*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = ["network: requires Chromium HTTP access to a local test server"]
